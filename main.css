@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+.width {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    max-width: 968px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+
+.header { 
+    box-shadow:0 0 16px 0 #26262629;
+    background-color: white;
+    padding: 0 81px 0 81px;   
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+}
+
+.logo  {
+    display: flex;
+    gap: 9.58px;
+    padding:  30px 0 29.69px 0;
+}
+
+.header button {
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 13px;
+    width: 78px;
+    height: 40px;
+    color: black;
+    font-weight: 600;
+    border: 1px solid #E0E0E0 ;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.menu {
+    display: flex;
+    gap:16px
+}
+
+.menu button {
+    margin:16px 0;
+}
+
+.main {
+    padding: 104px 81px 80px 81px;
+    box-sizing: border-box;
+}
+
+input {
+    padding-top: 32px;
+    padding-right:6px ;
+    width: 100%;
+    margin: 32px 81px;
+    border:none;
+    border-bottom: 1px solid #ccc6c6;
+    outline: none;
+}
+
+input :focus {
+    outline: none;
+}
+
+.name {
+    margin: 0;
+    color: #1D1D1D;
+    padding-top: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.name a {
+    text-decoration: none;
+    color: #1D1D1D;
+}
+
+
+.card {
+    width: 308px;
+    border: none !important;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.cards img {
+    width:317.94px ;
+    height: 256px;
+}
+
+
+.deskription {
+    margin: 0;
+    color: #626262;
+    padding-top: 4px;
+    font-size: 14px;
+}
+
+.width-main {
+    max-width: 968px;
+    margin: 0 auto;
+}
+
+.width-main h1 {
+    padding-top: 56px;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.time {
+    font-size: 13px;
+    padding-top: 4px;
+    font-weight: 400;
+}
+
+.futer {
+    background-color:#262626;
+}
+
+.futer-width {
+    padding: 56px 0 0 0;
+    max-width: 968px;
+    margin: 0 auto;
+}
+
+.links {
+    margin:40px 0 0 0;
+    padding: 32px 0 48px 0;
+    border-top:2px solid rgb(55, 55, 55);
+    border-bottom:2px solid rgb(55, 55, 55);
+    color:white;
+    display: flex;
+    align-items: baseline;
+    gap: 125px;
+    font-size: 13px;
+    line-height: 15.23px;
+    text-align: left;
+
+}
+
+
+.custom-select {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-select select {
+    background-color:#3B3B3B;
+    border: none;
+    border-radius: 1px;
+    color: white;
+    padding: 12px 100px 12px 48px;
+    -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+}
+
+.custom-select .world, .custom-select .arov {
+    position: absolute;
+    pointer-events: none;
+}
+
+.world {
+    margin: 11px 0 0 20px;
+}
+
+.arov {
+    margin: 16px 0 0 -30px;
+}
+
+span {
+    color:#49A144;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    
+}
+
+.uber {
+    padding:33px 0 17px ;
+}
+
+.media {
+    display: flex;
+    gap: 12px;
+}
+
+.stores {
+    display: flex;
+    padding: 41px 0 39px 0;
+    justify-content: center;
+    gap:40.5px;
+    border-bottom:2px solid rgb(55, 55, 55);
+}
+
+.politics {
+    display: flex;
+    color: white;
+    padding-top: 40px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12.89px;
+    gap: 200px;
+
+}
+
+.polit-2 {
+    display: flex;
+    gap: 140px;
+}
+
+.arov-up {
+    padding: 28px 32px ;
+    background-color:  #59BD5A;
+    display: block;
+    z-index: 1000;
+    position: fixed;
+    border-radius: 2px;
+    margin: 450px 970px ;
+}
+
+.futer a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and ( min-width: 760px) and ( max-width: 1124px) {
+    .width {
+        max-width: 752px;
+    }
+    .header { 
+        padding: 0 8px 0 8px;   
+    }
+    .width-main {
+        max-width: 752px;
+    }
+    .main {
+        padding: 104px 8px 80px 8px;
+    }
+    .futer-width {
+        padding: 56px 8px 0 8px;
+        max-width: 752px;
+    }
+    .links {
+        gap: 60px;
+    }
+    .cards {
+        gap: 16px;
+        max-width: 752px;
+    }
+    .cards img {
+        width: 358px;
+    }
+    .card {
+        width: 358px;
+    }
+    
+    .custom-select {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .custom-select select {
+        padding: 12px 50px 12px 48px;
+    }   
+    .politics {
+        gap: 95px;   
+    }   
+    .polit-2 {
+        gap: 60px;
+    }
+    
+    .arov-up {
+
+        margin: 450px 670px ;
+    }
+    
+    .futer a{
+        color: white;
+        text-decoration: none;
+    }
+    
+}
+
+@media screen and ( min-width: 320px) and ( max-width: 768px) {
+    .width {
+      max-width: 296px;      
+    }
+    
+    .header { 
+        padding: 0 8px 0 8px;   
+    }
+    
+    .header .menu img{
+        display: none;
+    }
+    .menu {
+        gap:0px;
+    }
+    .main {
+        padding: 104px 4px 80px 8px;
+    }
+    .width-main {
+        max-width: 296px;
+    }
+    
+    .futer-width {
+        max-width: 296px;
+    }
+
+    .custom-select {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .custom-select select {
+        padding: 12px 50px 12px 48px;
+    }  
+    
+    .links {
+        gap:20px;
+        flex-direction: column;
+    }
+    .stores {
+        gap:24px;
+    }
+    .stores img {
+        width: 110px;
+    }
+    
+    .politics {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        padding-top: 40px;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 12.89px;
+        gap: 10px;
+    
+    }
+    
+    .polit-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .arov-up {
+        padding: 28px 32px ;
+        background-color:  #59BD5A;
+        display: block;
+        z-index: 1000;
+        position: fixed;
+        border-radius: 2px;
+        margin: 330px 230px ;
+    }
+    
+    .futer a{
+        color: white;
+        text-decoration: none;
+    }
+}
